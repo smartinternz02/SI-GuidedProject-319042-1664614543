@@ -1,0 +1,121 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 100px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 50px;
+}
+.header p {
+    font-size: 30px;
+  }
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color:#1abc9c;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  
+  background-color: white;
+  padding: 50px;
+}
+.main a
+{
+    float: center;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;   
+    background-color: #1abc9c;
+    width: 500px;
+    height: 50px;
+    border: 1px royalblue;
+    border-radius: 500px;
+    font-size: 40px;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+
+.main h1
+{
+    color:#1abc9c;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 45px;
+    
+}
+.main a:hover
+{
+      
+    background-color: white;
+    color: #1abc9c;
+    border: 1px solid #1abc9c ;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: gray;
+    color: #f1f1f1;
+    margin-bottom: 0%;
+  }
+  
