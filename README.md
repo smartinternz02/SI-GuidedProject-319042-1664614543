@@ -13,4 +13,4 @@ information to predict customer’s purchasing intension. The Objective of the p
 Machine Learning that can predict customer purchase intention as accurately as possible.
 
 
-This is the video demonstration link : https://drive.google.com/file/d/11TTz2UFvthrxDEi9sWa9nvWOYTWzoljl/view?usp=share_link
+This is the video demonstration link : https://drive.google.com/file/d/11XDGbYJPYDslr7-9jG2EVdYreyRD3pGU/view?usp=share_link
